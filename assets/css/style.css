@@ -237,36 +237,53 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
-  #about-me img {
-    margin: 0 auto 30px;
-    display: block;
+  #header h1 {
+    margin-left: 15px;
   }
 
-  #portfolio {
-    margin: 30px 40px 50px 40px;
+  #social-links h2 {
+    font-size: 30px;
+    margin: 30px 0;
   }
 
+  nav {
+    margin-right: -10px;
+  }
+
+  #about-me,
+  #portfolio,
   #contact-form,
   #social-links {
-    display: block;
+    width: 90%;
+    margin-left: 40px;
+    margin-right: 35px;
   }
 
   #contact-form {
-    margin: 50px 125px 75px 125px;
+    height: 610px;
   }
 
-  #social-links {
-    margin: 50px 175px;
+  #about-me img {
+    margin: 0 15px 20px 15px;
   }
 
-  .portfolio-project {
-    margin: 30px 160px;
+  #social-links img {
+    height: 70px;
+    margin: 20px 15px 30px;
+  }
+
+  .portfolio-project img {
+    margin-left: 125px;
+  }
+
+  .portfolio-banner {
+    left: 125px;
   }
 }
 
 @media screen and (max-width: 640px) {
-  .nav > li {
-    margin-right: -100px;
+  #header {
+    position: fixed;
   }
 
   h2 {
