@@ -220,11 +220,17 @@ textarea {
   }
 
   #portfolio {
-    margin: 30px auto;
+    margin: 50px 50px 75px 60px;
+    width: 44%;
+    height: 1225px;
+    float: left;
+  }
+
+  #projects-table {
   }
 
   .portfolio-project {
-    margin: 30px 2px;
+    margin-left: 70px;
   }
 
   #contact-form {
