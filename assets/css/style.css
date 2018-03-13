@@ -79,7 +79,7 @@ p {
 #portfolio {
   margin: 50px auto;
   padding: 50px;
-  width: 59%;
+  width: 80%;
 }
 
 #about-me img {
@@ -100,8 +100,17 @@ p {
   width: 200px;
   height: 150px;
   text-align: center;
-  float: left;
   margin: 30px 85px;
+}
+
+.col-left {
+  float: left;
+  margin-left: 200px;
+}
+
+.col-right {
+  float: right;
+  margin-right: 200px;
 }
 
 .portfolio-banner {
@@ -226,8 +235,12 @@ textarea {
     float: left;
   }
 
-  .portfolio-project {
-    margin-left: 70px;
+  .col-left {
+    margin-left: 68px;
+  }
+
+  .col-right {
+    margin-right: 60px;
   }
 
   #contact-form {
