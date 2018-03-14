@@ -186,6 +186,14 @@ textarea {
   margin: 10px 20px;
 }
 
+#social-links-about-me #social-links {
+  margin-right: 575px;
+}
+
+#social-links-portfolio #social-links {
+  margin-right: 575px;
+}
+
 #footer {
   position: relative;
   height: 60px;
@@ -228,6 +236,14 @@ textarea {
     margin-right: 75px;
   }
 
+  #social-links-about-me #social-links {
+    margin-right: 75px;
+  }
+
+  #social-links-portfolio #social-links {
+    margin-right: 75px;
+  }
+
   #portfolio {
     margin: 50px 50px 75px 60px;
     width: 44%;
@@ -240,7 +256,7 @@ textarea {
   }
 
   .col-right {
-    margin-right: 60px;
+    margin-right: 55px;
   }
 
   #contact-form {
@@ -280,6 +296,14 @@ textarea {
     margin: 0 15px 20px 15px;
   }
 
+  #social-links-about-me #social-links {
+    margin: 0 40px 70px 0;
+  }
+
+  #social-links-portfolio #social-links {
+    margin: 0 40px 70px 0;
+  }
+
   #social-links img {
     height: 70px;
     margin: 20px 15px 30px;
@@ -289,6 +313,10 @@ textarea {
     margin-left: 125px;
   }
 
+  .col-right {
+    margin-right: 315px;
+  }
+
   .portfolio-banner {
     left: 125px;
   }
@@ -296,7 +324,6 @@ textarea {
 
 @media screen and (max-width: 640px) {
   #header {
-    position: fixed;
     width: 100%;
     height: 110px;
     z-index: 1;
@@ -322,7 +349,7 @@ textarea {
   #about-me,
   #portfolio,
   #contact-form {
-    margin: 175px 20px 50px 28px;
+    margin: 75px 20px 50px 28px;
     padding-top: 35px;
   }
 
@@ -332,6 +359,10 @@ textarea {
 
   .portfolio-banner {
     left: 60px;
+  }
+
+  .col-right {
+    margin: 0 200px;
   }
 
   #about-me img {
